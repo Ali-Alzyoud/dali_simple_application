@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/ali/dali-env/opt/include/**"
+                "~/dali-env/opt/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
