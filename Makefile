@@ -5,6 +5,6 @@ CXXFLAGS=`pkg-config --cflags --libs dali2-core dali2-adaptor dali2-adaptor-inte
 all: app
 
 app: source.cpp
-	$(CC) -g -O0 source.cpp -o app -std=c++17 $(CXXFLAGS)
+	$(CC) -g -O0 source.cpp -o  app -std=c++17 $(CXXFLAGS)
 clean:
 	rm app
